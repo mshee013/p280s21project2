@@ -1,13 +1,12 @@
 # p280s21project2
-[Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
-<<<<<<< HEAD
+[Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)<<<<<<< HEAD
 =======
 
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
  - analytics
-     - Bri [bpham012](https://github.com/bpham012 , Armando 
+     - Bri [bpham012](https://github.com/bpham012), Armando 
  - data
      - Reyna, Michelle 
  - visualizations
