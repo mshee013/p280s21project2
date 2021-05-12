@@ -9,7 +9,7 @@
  - data
      - Reyna, Michelle 
  - visualizations
-     - Peter, Alan, Brian
+     - [Peter](https://github.com/pcarl006), Alan, Brian
 
 #### Data Sets to be Used
 - per capita income county data for US provided by instructors
