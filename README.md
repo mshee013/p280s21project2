@@ -73,3 +73,6 @@ https://voila-gallery.org/
     - hover/mouse overs
     - decide on what toolkits to use, geopandas views or viola, panel, holoview, mpl
 
+## Contributors:
+[Reyna Pena](https://github.com/Reypena11) 
+
