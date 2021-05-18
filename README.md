@@ -1,10 +1,17 @@
 # p280s21project2
+[Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)<<<<<<< HEAD
+
 [Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
 
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
  - analytics
+     - Bri [bpham012](https://github.com/bpham012), Armando 
+ - data
+     - Reyna, Michelle 
+ - visualizations
+     - Peter, Alan, Brian
      - Bri, Armando 
  - data
      - Reyna, Michelle 
@@ -72,6 +79,7 @@ https://voila-gallery.org/
     - view-generated-views
     - hover/mouse overs
     - decide on what toolkits to use, geopandas views or viola, panel, holoview, mpl
+
 
 ## Contributors:
 [Reyna Pena](https://github.com/Reypena11) 
