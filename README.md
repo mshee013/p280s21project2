@@ -4,9 +4,6 @@
 [Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
 
 
-## Contributors 
-- (Brian Piche-Cifuentes)[https://github.com/BFPC4] Visualization
-
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
@@ -20,7 +17,7 @@
  - data
      - Reyna, Michelle 
  - visualizations
-     - [Peter](https://github.com/pcarl006), Alan, Brian
+     - [Peter](https://github.com/pcarl006), Alan, [Brian](https://github.com/BFPC4)
 
 #### Data Sets to be Used
 - per capita income county data for US provided by instructors
