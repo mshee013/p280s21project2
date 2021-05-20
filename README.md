@@ -3,6 +3,10 @@
 
 [Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
 
+
+## Contributors 
+- (Brian Piche-Cifuentes)[https://github.com/BFPC4] Visualization
+
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
@@ -83,4 +87,5 @@ https://voila-gallery.org/
 
 ## Contributors:
 [Reyna Pena](https://github.com/Reypena11) 
+
 
