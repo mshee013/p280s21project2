@@ -1,5 +1,10 @@
 # p280s21project2
 [Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
+
+
+## Contributors 
+- [Brian Piche-Cifuentes](https://github.com/BFPC4) Visualization
+
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
@@ -71,3 +76,4 @@ https://voila-gallery.org/
     - view-generated-views
     - hover/mouse overs
     - decide on what toolkits to use, geopandas views or viola, panel, holoview, mpl
+
