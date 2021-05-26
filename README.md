@@ -17,7 +17,7 @@
  - data
      - Reyna, Michelle 
  - visualizations
-     - [Peter](https://github.com/pcarl006), (Alan)[https://github.com/alanrrz], [Brian](https://github.com/BFPC4)
+     - [Peter](https://github.com/pcarl006), [Alan](https://github.com/alanrrz), [Brian](https://github.com/BFPC4)
 
 #### Data Sets to be Used
 - per capita income county data for US provided by instructors
