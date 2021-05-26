@@ -1,5 +1,5 @@
 # p280s21project2
-[Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)<<<<<<< HEAD
+[Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
 
 [Project Scope](https://sergerey.org/pbpl280s21/projects.html#spatial-inequality-dynamics)
 
@@ -8,7 +8,7 @@
 
 #### Identification of Team
  - analytics
-     - Bri [bpham012](https://github.com/bpham012), Armando 
+     - [Bri](https://github.com/bpham012), Armando 
  - data
      - Reyna, Michelle 
  - visualizations
@@ -38,7 +38,8 @@ https://doi.org/10.1016/j.jpubeco.2018.04.001. (Reyna)
 * Svallfors, Stefan. "Dimensions of inequality: A comparison of attitudes in Sweden and Britain." European Sociological Review 9.3 (1993): 267-287.
 (tinyurl.com/2ztsv4sn)
 * Pasquale Tridico, The determinants of income inequality in OECD countries, Cambridge Journal of Economics, Volume 42, Issue 4, July 2018, Pages 1009–1042, https://doi.org/10.1093/cje/bex069
-
+- Serge Rey, Dani Arribas-Bel, Levi J. Wolf Spatial Inequality
+(https://geographicdata.science/book/notebooks/09_spatial_inequality.html)
 
 
 
