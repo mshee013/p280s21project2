@@ -12,7 +12,6 @@
      - [Reyna Pena](https://github.com/Reypena11) , Michelle 
  - analytics
      - [Bri](https://github.com/bpham012), Armando 
-     - Bri, Armando 
  - visualizations
      - [Peter](https://github.com/pcarl006), [Alan](https://github.com/alanrrz), [Brian](https://github.com/BFPC4)
 
