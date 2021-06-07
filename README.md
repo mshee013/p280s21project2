@@ -7,15 +7,12 @@
 ## Project 2: Spatial Inequality Dynamics Proposal
 
 #### Identification of Team
+## Contributors:
+ - data
+     - [Reyna Pena](https://github.com/Reypena11) , Michelle 
  - analytics
      - [Bri](https://github.com/bpham012), Armando 
- - data
-     - Reyna, Michelle 
- - visualizations
-     - Peter, Alan, Brian
      - Bri, Armando 
- - data
-     - Reyna, Michelle 
  - visualizations
      - [Peter](https://github.com/pcarl006), [Alan](https://github.com/alanrrz), [Brian](https://github.com/BFPC4)
 
@@ -83,7 +80,5 @@ https://voila-gallery.org/
     - decide on what toolkits to use, geopandas views or viola, panel, holoview, mpl
 
 
-## Contributors:
-[Reyna Pena](https://github.com/Reypena11) 
 
 
