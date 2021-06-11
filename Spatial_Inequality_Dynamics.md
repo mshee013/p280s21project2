@@ -26,7 +26,7 @@ After importing the necessary packages (seaborn, pandas, geopandas, pysal, numpy
 
 In 1997, we see the gini index is 0.087922. On average, it increases to 0.1133675 by the end of our dataset in 2017. A higher gini index indicates a greater inequality. Overall inequality has increased in the United Kingdom. When graphing the gini indexes, we see there is a steep increase from 2004 to 2007. It then declines until 2011. From there it increases  until 0.115 in 2015 then decreases to 0.1134 in 2017.
 
-![A test image](Gini_Index.png)
+![Gini Index](Gini_Index.png)
 
 #### The 20:20 Ratio
 The second method of measurement in inequality chosen was the 20:20 ratio. The 20:20 ratio is defined as the ratio of the incomes at the 80th percentile over that of the 20th percentile. This measurment helps to uncover some of the challenges that exist between the rich and poor in income inequality distribution in a given region. The United Kingdom data that was given with the years of 1997 to 2017 showed results in which there is increasing periods over the years that income inequality measurements fluctuate at higher and lower levels. However, we still see a pattern of increasing inequality as the years progress.
