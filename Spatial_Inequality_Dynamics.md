@@ -24,9 +24,11 @@ The first measure of inequality chosen is the GINI Index. The Gini index, also k
 
 After importing the necessary packages (seaborn, pandas, geopandas, pysal, numpy, mapclassify, matplotlib, inequality), we calculated the lorenz curve for the first year in our dataset, 1997. We then applied this logic to make a Lorenz curve for every year in our data set by specifying the years as a list. The function for lorenz curves gave us a dataframe for all the years with rows as population shares or income shares as lists. After calculating Lorenz curves for every year, we then calculated a function in which the Gini index would be calculated for every year or the ratio for the area between the lorenz curve and the perfect equality curve. 
 
+![Lorenz Curve](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Lorenz%20Curves.png)
+
 In 1997, we see the gini index is 0.087922. On average, it increases to 0.1133675 by the end of our dataset in 2017. A higher gini index indicates a greater inequality. Overall inequality has increased in the United Kingdom. When graphing the gini indexes, we see there is a steep increase from 2004 to 2007. It then declines until 2011. From there it increases  until 0.115 in 2015 then decreases to 0.1134 in 2017.
 
-![Gini Index](Gini_Index.png)
+![Gini Coefficient](https://github.com/BFPC4/p280s21project2/blob/main/Static%20Images/Gini%20Index.png)
 
 #### The 20:20 Ratio
 The second method of measurement in inequality chosen was the 20:20 ratio. The 20:20 ratio is defined as the ratio of the incomes at the 80th percentile over that of the 20th percentile. This measurment helps to uncover some of the challenges that exist between the rich and poor in income inequality distribution in a given region. The United Kingdom data that was given with the years of 1997 to 2017 showed results in which there is increasing periods over the years that income inequality measurements fluctuate at higher and lower levels. However, we still see a pattern of increasing inequality as the years progress.
@@ -43,20 +45,30 @@ One of the biggest challenges we faced during this process was how slow the syst
 #### *Time Series*
 The first plot we created was the time series, which is featured in the main notebook. Following the methods used by the analytics team, we decided to graph both the "Gini Coefficient" and a "Theil Index" as they both show a significant increase of inequality in their respective coefficients. Between the years of 1997 to 2017 there was a mostly continous rise in per capita income. There were only a few years where the coefficient plateaus or dips, demonstrating how much the UK's level of inequality has grown over the years.  
 
+![Time Series](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Time%20Series.png)
+
 #### *Boxplot*
 The second plot we created was a boxplot. As previously mentioned, we chose 'hvplots' because of the simplified approach to creating interactive plots. We used their code "hv.plot.box" to create an intial boxplot (labeled "box") that mapped out the UK's 'per_capita' range in a given year with an interactive  bar showing the years between 1997-2018. From there we overlaid the boxplot with a scatterplot (['box * hvplot.scatter']) that mapped out the UK's regions on the box plot (labeled "box2"). We added to the scatterplot a hover command which would pop up the name and specific 'per_capita' (hover_cols=['per_capita', 'region']) of each region. 
 
+![Boxplot](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Box2.png)
+
 We noticed that due to the boxplots small size it was difficult to see where each region landed relative to the distribution. Thus we created a third boxplot (labeled "box3") that grouped the points by region and year with an interactive legend that would plot 1 dot at a time (groupby=['region','year']). This displayed where specific regions fell relative to the distribution of a year and tracks how their positions changed over time. The greatest examples we could demostrate are the West Midlands (how they go from fairly poor to the poorest region) and Outer London - West and North West (how they went from a moderately wealthy region to the second richest in the range). Its interesting to see how in 2004 the West Midlands and Outer London W/NW go in opposite directions of one another. 
+
+![Individual Boxplot](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Box3.png)
 
 #### *Map*
 The initial dataset we pulled featured each region's geometry which made it easier to create a map given its dimensions ('from [holoviews] import [dim, opt]'). When manipulating the data we created 2 data sets, "uk_long" which featured each region's geometry and "uklong" which removed that column. By simply leaving it in and using a basic hvplot code we were able to create this map. We deliberately chose a divergent color scheme (cmap=["RdYlBu"]) sensitive to variations in per capita income across the UK. In order to make it more interactive, we placed a hover option which displays the name of a region and per_capita values (hover_cols=['region','per_capita']). Sliding the scale to 1997, most regions are in the deep red, indicating many of them were poor but in a similar range. As the years progressed, the colors diverged, representing a growing divide amongst the poorest and richest regions. 
 
+![Map](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Map.png)
+
 #### *Scatterplot*
 The most difficult graph we attempted to make was the scatterplot because of the multiple variables we could have used to create it. We settled on a time series plot because it measured annual data from all  regions with a line indicating the median value. This first plot was created with seaborn and was borrowed from one of the notebooks shared with us. 
 
+![Inital Scatterplot](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Moran%20I.png)
+
 We found it rather difficult to replicate this graph using hvplot, but we merged a standard plot with a scatterplot of each year ([uklong.hvplot(x='year', y='per_capita') * uklong.hvplot.scatter...]) and included a hover option to display each region's name and 'per_capita'. Its clear to see across both maps that although the median per_capita rises throughout the years, indicating increasing per capita income, they are within the same area. This is especially true for those beneath the median. Beginning in 2004 however, several regions above the median distance themselves from the rest, highlighting growing inequality across the islands. 
 
-
+![Scatterplot](https://github.com/ecv19/p280s21project2/blob/main/Static%20Images/Scatterplot2.png)
 
 ### Challanges/ Academic Limitations* 
 Some challenges associated with this project were included in the data portion. The UK was originally not the country of interest to compare with the U.S., but a lack of data from other countries (particuarly Norwegian countries) pushed us to move towards comparing with the United Kingdom. The data was also oriented in a way that was unreadable, and had to be reoriented which caused several time constraints and challenges on our team. 
